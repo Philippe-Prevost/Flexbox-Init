@@ -1,0 +1,74 @@
+body{
+    background-color: darkred;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.rect1, .rect2, .rect3, .rect4, .rect5, .rect6{
+    height: 180px;
+    width: 40%;
+    background-color: orange;
+    color: black;
+    border: solid;
+    margin: 10px;
+    padding: 10px;
+    display: flex;  
+       
+}
+.mini-rectangle1, .mini-rectangle2, .mini-rectangle3, .mini-rectangle4, .mini-rectangle5, .mini-rectangle6, .mini-rectangle4-3, .mini-rectangle6-2, .mini-rectangle5-2{
+
+    background-color: darkred;
+    color: black;
+    border: solid;
+        margin: 10px;
+    padding: 20px;
+    overflow: hidden;
+    
+}
+.rect1{
+    justify-content:flex-start;
+    align-items: flex-end;
+}
+.rect2{
+    
+    justify-content: center;
+    align-items:stretch;
+    
+}
+.rect3{
+    justify-content:flex-end;
+    align-items: center;
+}
+.rect4{
+    justify-content:space-between;
+    align-items: flex-start;
+}
+.rect5{
+    justify-content:center;
+    align-items: stretch;
+}
+.rect6{
+
+    align-items: center;
+    flex-direction: row;
+}
+.mini-rectangle4-3{
+    align-self: flex-end;
+}
+.mini-rectangle5-2{
+    align-self: center;
+    max-height: 0%;
+}
+.mini-rectangle6-2{
+    
+    align-items: stretch;
+    flex:1;
+}
+.mini-rectangle5, .mini-rectangle5-2 {
+    max-width: 0%;
+}
+p{
+    white-space: normal;
+}
